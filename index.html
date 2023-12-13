@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Cores de fundo</h1>
+
+        <div class="options">
+
+            <div class="blue colors"><button onclick="padrao()">Padrão</button></div>
+    
+            <div class="red colors"><button onclick="vermelho()">Vermelho</button></div>
+    
+            <div class="purple colors"><button onclick="roxo()">Roxo</button></div>
+    
+            <div class="yellow colors"><button onclick="amarelo()">Amarelo</button></div>
+    
+            <div class="green colors"><button onclick="verde()">Verde</button></div>    
+
+        </div>
+
+        <div class="todo-app">
+
+            <h2>Lista de Tarefas <img src="images/icon.png"></h2>
+
+            <div class="row">
+
+                <input type="text" id="inputBox" placeholder="Digite a tarefa">
+                <button onclick="addTask()">Adicionar</button>
+
+            </div>
+
+            <ul id="listContainer">
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
